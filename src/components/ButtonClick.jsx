@@ -1,17 +1,12 @@
-import React from 'react';
-
-const ButtonClick = () => {
-
-    const increment = ( ) => {
-        const anotherRandom = Math.floor(Math.random()* quotes.length);
-        setNumber(anotherRandom);
-
-    } 
-
+const ButtonClick = ({colors, randomColorIndex, increment}) => {
+   
     return (
 
-        <div>
-            <button onClick={increment}>clic</button>   
+        <div className="buttonClick">
+            <button onClick= {increment} >
+                <i className="fa-solid fa-arrows-spin" style = {{ color: colors [randomColorIndex]}} >
+                </i>    
+            </button>
         </div>
     );
 };

@@ -1,14 +1,11 @@
-import users from './quotes.json'
 import './App.css';
 import QuoteBox from './components/QuoteBox';
 
-function App() {
-  
+function App() { 
 
   return (
-    <div className="App">
-      
-     <QuoteBox />
+    <div className="App"> 
+      <QuoteBox />
     </div>
   )
 }
