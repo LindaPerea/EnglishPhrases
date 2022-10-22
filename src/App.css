@@ -16,6 +16,7 @@
 
 .card ul li {
   text-align: right;
+  list-style: none;
 }
 
 i {
@@ -31,4 +32,5 @@ button {
   border: transparent;
   background: none;
   cursor: pointer ;
+  
 }
